@@ -1,0 +1,1 @@
+'use strict';Object.defineProperty(exports,'__esModule',{value:!0});var _CustomParagraph=require('./CustomParagraph'),_CustomParagraph2=_interopRequireDefault(_CustomParagraph);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj}}exports.default=_CustomParagraph2.default;

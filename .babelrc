@@ -1,0 +1,28 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 2 versions", "safari >= 7", "android >= 4"]
+        }
+      }
+    ],
+    "react",
+    "stage-3"
+  ],
+  "plugins": ["styled-jsx/babel"],
+  "ignore": ["node_modules"],
+  "env": {
+    "production": {
+      "presets": [
+        [
+          "minify",
+          {
+            "mangle": false
+          }
+        ]
+      ]
+    }
+  }
+}
