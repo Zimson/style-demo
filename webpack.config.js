@@ -43,12 +43,16 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
-        loader: "url-loader"
+        use: {
+          loader: "url-loader"
+        }
       },
       {
         test: /Icons\/\*\*\/\*.svg$/,
         exclude: /node_modules/,
-        loader: 'svg-react-loader'
+        use: {
+          loader: 'svg-react-loader'
+        }
       }
     ]
   }
